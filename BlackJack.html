@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BlackJack Game!</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="BlackJackGame.css">
+</head>
+<body>
+
+	<h4> Welcome to the BlackJack Table! </h4>
+
+	<div id="game">
+		<div class="actions">
+			<button id="dealBtn">Deal</button>
+			<button id="standBtn">Stand</button>
+			<button id="hitBtn">Hit</button>	
+		</div>
+
+		<div id="table">
+			<div class="card-box">
+				<div class="card" id="dealerCard">
+					<label>Dealer</label>
+					<br>
+					<text id="dealerScore"></text>
+				</div>
+				<div class="card" id="playerCard">
+					<label>Player</label>
+					<br>
+					<text id="playerScore"> </text>
+				</div>
+			</div>			
+		</div>
+		
+		
+	</div>
+	<script src="BlackJackGame.js"></script>
+</body>
+</html>
